@@ -1,0 +1,8 @@
+             CPU | CPU       |      Remove CPU   | 300|Central Processing Unit              
+Memory|Memory     |Remove Memory     |400|    Samsung Memory Stick
+||
+|Fan|Fan| Place fan       |900| CoolMasters R56|||
+ | | | | |
+GPU|GPU|              Remove GPU       |500|               Nvidia Geforce 750M
+||PCIe SSD|
+Power Supply          |Power Supply|          Remove Power Supply      |100|        
