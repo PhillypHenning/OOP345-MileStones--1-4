@@ -1,0 +1,10 @@
+Tank, SetupTank, RemoveTank, 100, Glass Tank to use
+Gravel, AddGravel, RemoveGravel, 200, Gravel for the bottom of the tank
+Filter, AssembleFilter, DisassembleFilter, 300, Cleaning filtration system
+Lighting, InstallLighting, ReplaceLighting, 400, Hood lighting system
+Heater, AddHeater, RemoveHeater, 500, Heater for maintaining water temperature
+Water, AddWater, DrainWater, 600, Clean water for the tank
+Rocks, AddRocks, RemoveRocks, 700, Live Reef Rocks
+Fish, AddFish, CatchFish, 800, Live fish to enjoy
+Coral, AddCoral, RemoveCoral, 900, Live coral to enjoy
+Toys, AddToys, RemoveToys, 1000, Artificial rocks and tank nicknacks

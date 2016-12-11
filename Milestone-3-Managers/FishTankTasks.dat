@@ -1,0 +1,20 @@
+SetupTank, 2, AddGravel
+RemoveTank, 1, SetupTank
+AddGravel, 5, AssembleFilter, RemoveGravel
+RemoveGravel, 1, AddGravel
+AssembleFilter, 5, InstallLighting, DisassembleFilter
+DisassembleFilter, 1, AssembleFilter
+InstallLighting, 2, AddHeater, ReplaceLighting
+ReplaceLighting, 1, InstallLighting
+AddHeater, 5, AddWater, RemoveHeater
+RemoveHeater, 1, AddHeater
+AddWater, 5, AddRocks, DrainWater
+DrainWater, 1, AddWater
+AddRocks, 8, AddFish, RemoveRocks
+RemoveRocks, 1, AddRocks, AddFish
+AddFish, 10, AddCoral, CatchFish
+CatchFish, 1, AddFish, AddCoral
+AddCoral, 5, AddToys, RemoveCoral
+RemoveCoral, 1, AddCoral, AddToys
+AddToys, 4
+RemoveToys, 1

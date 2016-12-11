@@ -1,0 +1,18 @@
+Power Supply | 4 | Motherboard
+Motherboard     |           3 | CPU |          Remove CPU
+       Remove CPU         |            1 |CPU           
+CPU | 5 | Memory | Remove CPU
+Remove CPU | 1 | CPU
+Memory | 4 | SSD | Remove Memory
+Remove Memory | 1 | Memory
+SSD    |      4         | GPU |          Remove SSD
+Remove SSD     | 1   |SSD
+GPU|3|Test
+Test | 4 | Approve | Repair
+||
+Test / 4 / Approve / Repair
+|Remove SSD|1|SSD|
+CPU | 5 | Memory | Remove CPU | Remove CPU | Remove CPU
+4 | SSD | GPU | Remove SSD
+Repair
+ Approve
